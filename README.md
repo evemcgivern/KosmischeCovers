@@ -4,6 +4,11 @@
 
 KosmischeCovers is a machine-learning project for generating psychedelic album cover art in the style of 1970s German “kosmische” rock. It includes scripts for data preparation, augmentation, model training, and inference.
 
+## Associated Model
+
+- **Live Model on Hugging Face:**
+  [kilbey1/stoner-psych-lora](https://huggingface.co/kilbey1/stoner-psych-lora)
+
 ## Script Descriptions
 
 ### Core Scripts
