@@ -1,22 +1,22 @@
-# KosmischeCovers Project Guide
+# KosmischeCovers
 
-## Project Overview
+KosmischeCovers is an open-source machine learning project focused on generating psychedelic album cover art inspired by the 1970s German "kosmische" (cosmic) rock movement. The project provides a full pipeline for dataset preparation, data augmentation, model training, and inference using modern diffusion models. It is designed for researchers, artists, and hobbyists interested in generative art, music culture, and AI.
 
-KosmischeCovers is a machine-learning project for generating psychedelic album cover art in the style of 1970s German “kosmische” rock. It includes scripts for data preparation, augmentation, model training, and inference.
+**Key Features:**
+- Automated downloading of album cover datasets from public music databases (optional)
+- Robust data augmentation to expand and diversify training images
+- Hardware-aware training pipeline supporting NVIDIA GPUs, Apple Silicon, and CPUs
+- Fine-tuning of Stable Diffusion v1.5 using cross-attention layers for efficient adaptation
+- Easy-to-use scripts for training, validation, and inference
+- Example model and sample outputs available on [Hugging Face](https://huggingface.co/kilbey1/stoner-psych-lora)
 
-## Associated Model
+**Use Cases:**
+- Generating new album cover art in the style of classic krautrock and psychedelic records
+- Experimenting with LoRA and cross-attention fine-tuning for diffusion models
+- Learning about end-to-end ML workflows for generative art
 
-- **Live Model on Hugging Face:**
-  [kilbey1/stoner-psych-lora](https://huggingface.co/kilbey1/stoner-psych-lora)
-
-## Script Descriptions
-
-### Core Scripts
-
-- **dataloader.py**
-  Sets up data loading pipelines for training vision models with album cover images.
-- **trainer.py**
-  Performs data augmentation on album cover images to increase dataset diversity.
+**Get started:**
+Follow the step-by-step instructions in this repository to prepare your data, train your own model, and generate unique cosmic album covers!
 - **training.py**
   Fine-tunes the Stable Diffusion v1.5 model using cross-attention training.
 - **test.py**
