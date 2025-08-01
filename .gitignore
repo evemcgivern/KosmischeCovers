@@ -1,0 +1,97 @@
+# Environment variables and secrets
+.env
+
+# Python virtual environment
+venv/
+.venv/
+env/
+ENV/
+.Python
+python*/
+bin/
+lib/
+lib64/
+include/
+share/
+pyvenv.cfg
+
+# Dataset directories
+data/
+data/album_covers/
+data/covers/
+data/augment/
+
+# Model output
+models/
+models/stoner-psych-lora/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+checkpoint*/
+
+# Hugging Face cache
+.cache/
+.huggingface/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Distribution/packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs and local run files
+*.log
+logs/
+runs/
+events.out.tfevents.*
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Additional credential files
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+*.keystore
+*.jks
+credentials.json
+*_credentials.json
+*credentials*.json
+*secret*.json
+*token*.json
+*apikey*
+*api_key*
+*auth*config*.json
+*config*.json
+*settings*.json
+.credentials/
+.secrets/

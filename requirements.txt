@@ -1,0 +1,28 @@
+# Core ML libraries
+torch>=2.0.0
+torchvision>=0.15.0
+diffusers>=0.24.0
+transformers>=4.30.0  # Required by diffusers for text encoding
+accelerate>=0.20.0    # Helps with diffusers model loading
+peft>=0.7.0           # Parameter-Efficient Fine-Tuning support for LoRA
+
+# Hugging Face Hub and environment variable support
+huggingface_hub>=0.20.3
+python-dotenv>=1.0.0
+
+# Image processing
+Pillow>=10.0.0
+
+# Data processing and utilities
+tqdm>=4.65.0
+numpy>=1.24.0
+
+# Web scraping and networking
+requests>=2.28.0
+beautifulsoup4>=4.12.0
+
+# Optional: for interactive development
+ipython>=8.10.0
+
+# Testing
+pytest>=7.0.0
